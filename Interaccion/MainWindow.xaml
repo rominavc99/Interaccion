@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="lblHolaMundo"> Hola Mundo. </TextBlock>
-        <Button x:Name="btnMiBoton" Width="100" Height="50" Margin="20,50,0,0"> Button </Button>
-
+        <TextBlock x:Name="lblHolaMundo"><Run Text="Hola Mundo."/></TextBlock>
+        <Button x:Name="btnMiBoton" Width="100" Height="50" Margin="353,194,340.333,176.667"> Button </Button>
+        <Button x:Name="btnMiBoton2" Width="100" Height="50" Margin="53,194,340.333,176.667" Click="BtnMiBoton2_Click">Button2</Button>
+        <Button x:Name="btnMiBoton3" Width="100" Height="50" Margin="353,194,40.333,176.667" Click="BtnMiBoton3_Click">Button3</Button>
     </Grid>
 </Window>
